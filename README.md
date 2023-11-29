@@ -1,4 +1,4 @@
-# Hola, soy Juanperort-Dev
+# Hola, soy Juanjo
 
 ¡Bienvenido a mi rincón de desarrollo en GitHub! Soy un apasionado desarrollador de software con experiencia en Android, desarrollo de inteligencia artificial y big data. Me encanta explorar nuevas tecnologías y encontrar soluciones creativas a los desafíos tecnológicos.
 
