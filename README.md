@@ -25,7 +25,7 @@
 
 ¡Estoy abierto a colaboraciones y siempre interesado en discutir nuevas ideas y proyectos! Siéntete libre de contactarme:
 
-- 📧 Email: [xxjuanjose467@gmail.com]
-- 💼 LinkedIn: [https://www.linkedin.com/in/juanperort/]
+- 📧 Email: xxjuanjose467@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/juanperort/
 
 ¡Gracias por visitar mi perfil! Espero que encuentres interesantes mis proyectos y contribuciones.
