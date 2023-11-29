@@ -1,16 +1,32 @@
-### Hi there 👋
+# Hola, soy Juanperort-Dev
 
-<!--
-**juanperort-dev/juanperort-dev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+¡Bienvenido a mi rincón de desarrollo en GitHub! Soy un apasionado desarrollador de software con experiencia en Android, desarrollo de inteligencia artificial y big data. Me encanta explorar nuevas tecnologías y encontrar soluciones creativas a los desafíos tecnológicos.
 
-Here are some ideas to get you started:
+## Acerca de Mí
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 👨‍💻 Desarrollador de Software con enfoque en Android, AI y Big Data.
+- 🌐 Explorando el mundo de la inteligencia artificial para crear soluciones innovadoras.
+- 🚀 Aficionado a aprender y aplicar nuevas tecnologías para mejorar mis habilidades.
+
+## Proyectos Destacados
+
+- 📱 [Proyecto Android]: Desarrollé una aplicación Android que [Descripción breve del proyecto].
+- 🤖 [Proyecto de Inteligencia Artificial]: Implementé un modelo de IA para [Descripción breve del proyecto].
+- 💾 [Proyecto de Big Data]: Trabajé en un proyecto que maneja grandes conjuntos de datos para [Descripción breve del proyecto].
+
+## Habilidades
+
+- 💻 Lenguajes de Programación: Java, Python, Kotlin, etc.
+- 📱 Desarrollo Android: Experiencia en el desarrollo de aplicaciones móviles para Android.
+- 🤖 Inteligencia Artificial: Desarrollo de modelos de aprendizaje automático, procesamiento del lenguaje natural, etc.
+- 💾 Big Data: Procesamiento y análisis de grandes conjuntos de datos.
+
+## Contacto
+
+¡Estoy abierto a colaboraciones y siempre interesado en discutir nuevas ideas y proyectos! Siéntete libre de contactarme:
+
+- 📧 Email: [tuemail@gmail.com]
+- 💼 LinkedIn: [Tu Perfil de LinkedIn]
+- 🐦 Twitter: [@TuUsuarioTwitter]
+
+¡Gracias por visitar mi perfil! Espero que encuentres interesantes mis proyectos y contribuciones.
