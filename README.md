@@ -7,6 +7,7 @@
 - 👨‍💻 Desarrollador de Software con enfoque en Android, AI y Big Data.
 - 🌐 Explorando el mundo de la inteligencia artificial para crear soluciones innovadoras.
 - 🚀 Aficionado a aprender y aplicar nuevas tecnologías para mejorar mis habilidades.
+- 🤖 Curiosidad por el mundo IoT. Desarrollo de pequeños sitemas.
 
 ## Proyectos Destacados
 
@@ -16,8 +17,8 @@
 
 ## Habilidades
 
-- 💻 Lenguajes de Programación: Java, Python, Kotlin, etc.
-- 📱 Desarrollo Android: Experiencia en el desarrollo de aplicaciones móviles para Android.
+- 💻 Lenguajes de Programación: Java, Python, Kotlin, JavaScript, TyperScript, C#.
+- 📱 Desarrollo Android: Experiencia en el desarrollo de aplicaciones móviles para Android con Java y Kotlin.
 - 🤖 Inteligencia Artificial: Desarrollo de modelos de aprendizaje automático, procesamiento del lenguaje natural, etc.
 - 💾 Big Data: Procesamiento y análisis de grandes conjuntos de datos.
 
