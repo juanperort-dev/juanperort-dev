@@ -14,6 +14,33 @@
 		B2033D0D2C978D5D00C3F8E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2033D0C2C978D5D00C3F8E0 /* Base */; };
 		B2033D0F2C978D5E00C3F8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2033D0E2C978D5E00C3F8E0 /* Assets.xcassets */; };
 		B2033D122C978D5E00C3F8E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2033D112C978D5E00C3F8E0 /* Base */; };
+		B26160BC2C9854C500E71E15 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160BB2C9854C500E71E15 /* Utils.swift */; };
+		B26160BE2C9854F600E71E15 /* KeyDataFunkos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160BD2C9854F600E71E15 /* KeyDataFunkos.swift */; };
+		B26160C02C9855FD00E71E15 /* String+additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160BF2C9855FD00E71E15 /* String+additions.swift */; };
+		B26160C32C98561C00E71E15 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B26160C12C98561C00E71E15 /* Localizable.strings */; };
+		B26160C52C98564000E71E15 /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160C42C98564000E71E15 /* Mock.swift */; };
+		B26160C62C985AD500E71E15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2033D0B2C978D5D00C3F8E0 /* Main.storyboard */; };
+		B26160C72C985AD700E71E15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2033D102C978D5E00C3F8E0 /* LaunchScreen.storyboard */; };
+		B26160C92C985C6B00E71E15 /* funkos.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473E2C9797C400B01F9F /* funkos.json */; };
+		B26160CA2C985C6E00E71E15 /* detail.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473F2C9797DA00B01F9F /* detail.json */; };
+		B26160CC2C985DA700E71E15 /* funkoCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = B26160CB2C985D8A00E71E15 /* funkoCollection.json */; };
+		B26160CE2C987A3A00E71E15 /* FunkoList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26160CD2C987A3A00E71E15 /* FunkoList.storyboard */; };
+		B26160D02C987A4B00E71E15 /* FunkoListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160CF2C987A4B00E71E15 /* FunkoListPresenter.swift */; };
+		B26160D22C987A6400E71E15 /* FunkoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160D12C987A6400E71E15 /* FunkoListViewController.swift */; };
+		B26160D42C987A9800E71E15 /* FunkoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160D32C987A9800E71E15 /* FunkoListCell.swift */; };
+		B26160D62C987B9700E71E15 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160D52C987B9700E71E15 /* Extensions.swift */; };
+		B26160DA2C98803500E71E15 /* FunkoDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160D92C98803500E71E15 /* FunkoDetailPresenter.swift */; };
+		B26160DC2C98804500E71E15 /* FunkoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160DB2C98804500E71E15 /* FunkoDetailViewController.swift */; };
+		B26160DE2C98818300E71E15 /* FunkoDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26160DD2C98818300E71E15 /* FunkoDetail.storyboard */; };
+		B26160E12C98876F00E71E15 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160DF2C98876F00E71E15 /* CheckboxView.swift */; };
+		B26160E22C98876F00E71E15 /* CheckboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26160E02C98876F00E71E15 /* CheckboxView.xib */; };
+		B26160E42C98995100E71E15 /* FunkoFilterPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160E32C98995100E71E15 /* FunkoFilterPresenterTests.swift */; };
+		B26160E62C98996400E71E15 /* FunkoFilterViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160E52C98996400E71E15 /* FunkoFilterViewControllerTests.swift */; };
+		B26160E82C98998100E71E15 /* FunkoListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160E72C98998100E71E15 /* FunkoListPresenterTests.swift */; };
+		B26160EA2C98999600E71E15 /* FunkoListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160E92C98999600E71E15 /* FunkoListViewControllerTests.swift */; };
+		B26160EC2C9899D600E71E15 /* FunkoNativeAPIRepositorySpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160EB2C9899D600E71E15 /* FunkoNativeAPIRepositorySpy.swift */; };
+		B26160EF2C989A6600E71E15 /* FunkoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160EE2C989A6600E71E15 /* FunkoRepository.swift */; };
+		B26160F12C989AA000E71E15 /* FunkoNativeAPIRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26160F02C989AA000E71E15 /* FunkoNativeAPIRespository.swift */; };
 		B26E472C2C9795B000B01F9F /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E472B2C9795B000B01F9F /* Dashboard.storyboard */; };
 		B26E472E2C9795C000B01F9F /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E472D2C9795C000B01F9F /* DashboardPresenter.swift */; };
 		B26E47302C9795D300B01F9F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E472F2C9795D300B01F9F /* DashboardViewController.swift */; };
@@ -24,12 +51,9 @@
 		B26E473A2C97964800B01F9F /* FunkoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47392C97964800B01F9F /* FunkoContainer.swift */; };
 		B26E473C2C97968600B01F9F /* CallsAlomofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E473B2C97968600B01F9F /* CallsAlomofire.swift */; };
 		B26E47412C97984100B01F9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47402C97984100B01F9F /* Constants.swift */; };
-		B26E47432C9798C400B01F9F /* Filter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E47422C9798C400B01F9F /* Filter.storyboard */; };
-		B26E47452C97990C00B01F9F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47442C97990C00B01F9F /* FilterViewController.swift */; };
-		B26E47472C97991600B01F9F /* FilterPrensenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47462C97991600B01F9F /* FilterPrensenter.swift */; };
-		B26E47482C97991F00B01F9F /* detail.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473F2C9797DA00B01F9F /* detail.json */; };
-		B26E47492C97992200B01F9F /* funkos.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473E2C9797C400B01F9F /* funkos.json */; };
-		B26E474A2C97992A00B01F9F /* funkoCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473D2C9797AD00B01F9F /* funkoCollection.json */; };
+		B26E47432C9798C400B01F9F /* FunkoFilter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E47422C9798C400B01F9F /* FunkoFilter.storyboard */; };
+		B26E47452C97990C00B01F9F /* FunkoFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47442C97990C00B01F9F /* FunkoFilterViewController.swift */; };
+		B26E47472C97991600B01F9F /* FunkoFilterPrensenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47462C97991600B01F9F /* FunkoFilterPrensenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +67,29 @@
 		B2033D0E2C978D5E00C3F8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2033D112C978D5E00C3F8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2033D132C978D5E00C3F8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26160BB2C9854C500E71E15 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B26160BD2C9854F600E71E15 /* KeyDataFunkos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDataFunkos.swift; sourceTree = "<group>"; };
+		B26160BF2C9855FD00E71E15 /* String+additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+additions.swift"; sourceTree = "<group>"; };
+		B26160C22C98561C00E71E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B26160C42C98564000E71E15 /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		B26160CB2C985D8A00E71E15 /* funkoCollection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = funkoCollection.json; sourceTree = "<group>"; };
+		B26160CD2C987A3A00E71E15 /* FunkoList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FunkoList.storyboard; sourceTree = "<group>"; };
+		B26160CF2C987A4B00E71E15 /* FunkoListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoListPresenter.swift; sourceTree = "<group>"; };
+		B26160D12C987A6400E71E15 /* FunkoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoListViewController.swift; sourceTree = "<group>"; };
+		B26160D32C987A9800E71E15 /* FunkoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoListCell.swift; sourceTree = "<group>"; };
+		B26160D52C987B9700E71E15 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B26160D92C98803500E71E15 /* FunkoDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoDetailPresenter.swift; sourceTree = "<group>"; };
+		B26160DB2C98804500E71E15 /* FunkoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoDetailViewController.swift; sourceTree = "<group>"; };
+		B26160DD2C98818300E71E15 /* FunkoDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FunkoDetail.storyboard; sourceTree = "<group>"; };
+		B26160DF2C98876F00E71E15 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		B26160E02C98876F00E71E15 /* CheckboxView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckboxView.xib; sourceTree = "<group>"; };
+		B26160E32C98995100E71E15 /* FunkoFilterPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoFilterPresenterTests.swift; sourceTree = "<group>"; };
+		B26160E52C98996400E71E15 /* FunkoFilterViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoFilterViewControllerTests.swift; sourceTree = "<group>"; };
+		B26160E72C98998100E71E15 /* FunkoListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoListPresenterTests.swift; sourceTree = "<group>"; };
+		B26160E92C98999600E71E15 /* FunkoListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoListViewControllerTests.swift; sourceTree = "<group>"; };
+		B26160EB2C9899D600E71E15 /* FunkoNativeAPIRepositorySpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoNativeAPIRepositorySpy.swift; sourceTree = "<group>"; };
+		B26160EE2C989A6600E71E15 /* FunkoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoRepository.swift; sourceTree = "<group>"; };
+		B26160F02C989AA000E71E15 /* FunkoNativeAPIRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoNativeAPIRespository.swift; sourceTree = "<group>"; };
 		B26E472B2C9795B000B01F9F /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		B26E472D2C9795C000B01F9F /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
 		B26E472F2C9795D300B01F9F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
@@ -52,13 +99,12 @@
 		B26E47372C97963800B01F9F /* Funko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funko.swift; sourceTree = "<group>"; };
 		B26E47392C97964800B01F9F /* FunkoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoContainer.swift; sourceTree = "<group>"; };
 		B26E473B2C97968600B01F9F /* CallsAlomofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsAlomofire.swift; sourceTree = "<group>"; };
-		B26E473D2C9797AD00B01F9F /* funkoCollection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = funkoCollection.json; sourceTree = "<group>"; };
-		B26E473E2C9797C400B01F9F /* funkos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = funkos.json; sourceTree = "<group>"; };
-		B26E473F2C9797DA00B01F9F /* detail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
+		B26E473E2C9797C400B01F9F /* funkos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = funkos.json; sourceTree = "<group>"; };
+		B26E473F2C9797DA00B01F9F /* detail.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
 		B26E47402C97984100B01F9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B26E47422C9798C400B01F9F /* Filter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Filter.storyboard; sourceTree = "<group>"; };
-		B26E47442C97990C00B01F9F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
-		B26E47462C97991600B01F9F /* FilterPrensenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPrensenter.swift; sourceTree = "<group>"; };
+		B26E47422C9798C400B01F9F /* FunkoFilter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FunkoFilter.storyboard; sourceTree = "<group>"; };
+		B26E47442C97990C00B01F9F /* FunkoFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoFilterViewController.swift; sourceTree = "<group>"; };
+		B26E47462C97991600B01F9F /* FunkoFilterPrensenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoFilterPrensenter.swift; sourceTree = "<group>"; };
 		DD697D672D43FF4658EC9BAD /* Pods_FunkoHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkoHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,20 +151,21 @@
 			isa = PBXGroup;
 			children = (
 				B2033D192C978DA300C3F8E0 /* Dashboard */,
-				B2033D1D2C9790AB00C3F8E0 /* FunkoDetail */,
 				B2033D1E2C9790D100C3F8E0 /* FunkoList */,
+				B2033D1D2C9790AB00C3F8E0 /* FunkoDetail */,
 				B2033D1F2C9790ED00C3F8E0 /* FunkoFilter */,
 				B2033D202C9791C900C3F8E0 /* TypeFunko */,
+				B2033D1B2C978DB700C3F8E0 /* Structs */,
+				B26160ED2C989A4200E71E15 /* Repository */,
+				B2033D1A2C978DAD00C3F8E0 /* Utils */,
+				B2033D1C2C978E7300C3F8E0 /* Resources */,
+				B2033D212C97928C00C3F8E0 /* Tests */,
 				B2033D052C978D5D00C3F8E0 /* AppDelegate.swift */,
 				B2033D072C978D5D00C3F8E0 /* SceneDelegate.swift */,
 				B2033D092C978D5D00C3F8E0 /* ViewController.swift */,
 				B2033D0B2C978D5D00C3F8E0 /* Main.storyboard */,
 				B2033D102C978D5E00C3F8E0 /* LaunchScreen.storyboard */,
 				B2033D0E2C978D5E00C3F8E0 /* Assets.xcassets */,
-				B2033D212C97928C00C3F8E0 /* Tests */,
-				B2033D1C2C978E7300C3F8E0 /* Resources */,
-				B2033D1B2C978DB700C3F8E0 /* Structs */,
-				B2033D1A2C978DAD00C3F8E0 /* Utils */,
 				B2033D132C978D5E00C3F8E0 /* Info.plist */,
 			);
 			path = FunkoHub;
@@ -139,8 +186,13 @@
 		B2033D1A2C978DAD00C3F8E0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B26160C42C98564000E71E15 /* Mock.swift */,
+				B26160BB2C9854C500E71E15 /* Utils.swift */,
+				B26160D52C987B9700E71E15 /* Extensions.swift */,
 				B26E473B2C97968600B01F9F /* CallsAlomofire.swift */,
 				B26E47402C97984100B01F9F /* Constants.swift */,
+				B26160BF2C9855FD00E71E15 /* String+additions.swift */,
+				B26160C12C98561C00E71E15 /* Localizable.strings */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -151,6 +203,7 @@
 				B26E47352C97962A00B01F9F /* FunkoCollection.swift */,
 				B26E47372C97963800B01F9F /* Funko.swift */,
 				B26E47392C97964800B01F9F /* FunkoContainer.swift */,
+				B26160BD2C9854F600E71E15 /* KeyDataFunkos.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -158,7 +211,7 @@
 		B2033D1C2C978E7300C3F8E0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B26E473D2C9797AD00B01F9F /* funkoCollection.json */,
+				B26160CB2C985D8A00E71E15 /* funkoCollection.json */,
 				B26E473E2C9797C400B01F9F /* funkos.json */,
 				B26E473F2C9797DA00B01F9F /* detail.json */,
 			);
@@ -168,6 +221,9 @@
 		B2033D1D2C9790AB00C3F8E0 /* FunkoDetail */ = {
 			isa = PBXGroup;
 			children = (
+				B26160DD2C98818300E71E15 /* FunkoDetail.storyboard */,
+				B26160D92C98803500E71E15 /* FunkoDetailPresenter.swift */,
+				B26160DB2C98804500E71E15 /* FunkoDetailViewController.swift */,
 			);
 			path = FunkoDetail;
 			sourceTree = "<group>";
@@ -175,6 +231,10 @@
 		B2033D1E2C9790D100C3F8E0 /* FunkoList */ = {
 			isa = PBXGroup;
 			children = (
+				B26160CD2C987A3A00E71E15 /* FunkoList.storyboard */,
+				B26160CF2C987A4B00E71E15 /* FunkoListPresenter.swift */,
+				B26160D12C987A6400E71E15 /* FunkoListViewController.swift */,
+				B26160D32C987A9800E71E15 /* FunkoListCell.swift */,
 			);
 			path = FunkoList;
 			sourceTree = "<group>";
@@ -182,9 +242,11 @@
 		B2033D1F2C9790ED00C3F8E0 /* FunkoFilter */ = {
 			isa = PBXGroup;
 			children = (
-				B26E47422C9798C400B01F9F /* Filter.storyboard */,
-				B26E47442C97990C00B01F9F /* FilterViewController.swift */,
-				B26E47462C97991600B01F9F /* FilterPrensenter.swift */,
+				B26E47422C9798C400B01F9F /* FunkoFilter.storyboard */,
+				B26E47462C97991600B01F9F /* FunkoFilterPrensenter.swift */,
+				B26E47442C97990C00B01F9F /* FunkoFilterViewController.swift */,
+				B26160DF2C98876F00E71E15 /* CheckboxView.swift */,
+				B26160E02C98876F00E71E15 /* CheckboxView.xib */,
 			);
 			path = FunkoFilter;
 			sourceTree = "<group>";
@@ -199,8 +261,22 @@
 		B2033D212C97928C00C3F8E0 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B26160E32C98995100E71E15 /* FunkoFilterPresenterTests.swift */,
+				B26160E52C98996400E71E15 /* FunkoFilterViewControllerTests.swift */,
+				B26160E72C98998100E71E15 /* FunkoListPresenterTests.swift */,
+				B26160E92C98999600E71E15 /* FunkoListViewControllerTests.swift */,
+				B26160EB2C9899D600E71E15 /* FunkoNativeAPIRepositorySpy.swift */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		B26160ED2C989A4200E71E15 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B26160EE2C989A6600E71E15 /* FunkoRepository.swift */,
+				B26160F02C989AA000E71E15 /* FunkoNativeAPIRespository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		F50D69296BE6FE408FF3F5B4 /* Frameworks */ = {
@@ -272,14 +348,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2033D0F2C978D5E00C3F8E0 /* Assets.xcassets in Resources */,
-				B26E47492C97992200B01F9F /* funkos.json in Resources */,
-				B26E47482C97991F00B01F9F /* detail.json in Resources */,
-				B26E474A2C97992A00B01F9F /* funkoCollection.json in Resources */,
 				B2033D122C978D5E00C3F8E0 /* Base in Resources */,
-				B26E47432C9798C400B01F9F /* Filter.storyboard in Resources */,
+				B26160C62C985AD500E71E15 /* Main.storyboard in Resources */,
+				B26160CC2C985DA700E71E15 /* funkoCollection.json in Resources */,
+				B26160C32C98561C00E71E15 /* Localizable.strings in Resources */,
+				B26160DE2C98818300E71E15 /* FunkoDetail.storyboard in Resources */,
+				B26E47432C9798C400B01F9F /* FunkoFilter.storyboard in Resources */,
+				B26160CA2C985C6E00E71E15 /* detail.json in Resources */,
 				B26E47342C97960500B01F9F /* FunkoCollectionViewCell.xib in Resources */,
+				B26160C72C985AD700E71E15 /* LaunchScreen.storyboard in Resources */,
+				B26160CE2C987A3A00E71E15 /* FunkoList.storyboard in Resources */,
+				B26160C92C985C6B00E71E15 /* funkos.json in Resources */,
 				B2033D0D2C978D5D00C3F8E0 /* Base in Resources */,
 				B26E472C2C9795B000B01F9F /* Dashboard.storyboard in Resources */,
+				B26160E22C98876F00E71E15 /* CheckboxView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,16 +416,34 @@
 			files = (
 				B26E47332C97960500B01F9F /* FunkoCollectionViewCell.swift in Sources */,
 				B26E47412C97984100B01F9F /* Constants.swift in Sources */,
+				B26160F12C989AA000E71E15 /* FunkoNativeAPIRespository.swift in Sources */,
+				B26160C02C9855FD00E71E15 /* String+additions.swift in Sources */,
 				B26E47382C97963800B01F9F /* Funko.swift in Sources */,
+				B26160BC2C9854C500E71E15 /* Utils.swift in Sources */,
+				B26160EF2C989A6600E71E15 /* FunkoRepository.swift in Sources */,
 				B2033D0A2C978D5D00C3F8E0 /* ViewController.swift in Sources */,
+				B26160C52C98564000E71E15 /* Mock.swift in Sources */,
 				B2033D062C978D5D00C3F8E0 /* AppDelegate.swift in Sources */,
+				B26160DC2C98804500E71E15 /* FunkoDetailViewController.swift in Sources */,
+				B26160BE2C9854F600E71E15 /* KeyDataFunkos.swift in Sources */,
 				B26E47302C9795D300B01F9F /* DashboardViewController.swift in Sources */,
-				B26E47452C97990C00B01F9F /* FilterViewController.swift in Sources */,
+				B26E47452C97990C00B01F9F /* FunkoFilterViewController.swift in Sources */,
+				B26160D22C987A6400E71E15 /* FunkoListViewController.swift in Sources */,
 				B26E47362C97962A00B01F9F /* FunkoCollection.swift in Sources */,
+				B26160D62C987B9700E71E15 /* Extensions.swift in Sources */,
+				B26160E12C98876F00E71E15 /* CheckboxView.swift in Sources */,
+				B26160D42C987A9800E71E15 /* FunkoListCell.swift in Sources */,
+				B26160DA2C98803500E71E15 /* FunkoDetailPresenter.swift in Sources */,
+				B26160E82C98998100E71E15 /* FunkoListPresenterTests.swift in Sources */,
+				B26160D02C987A4B00E71E15 /* FunkoListPresenter.swift in Sources */,
 				B26E473C2C97968600B01F9F /* CallsAlomofire.swift in Sources */,
+				B26160E62C98996400E71E15 /* FunkoFilterViewControllerTests.swift in Sources */,
+				B26160EC2C9899D600E71E15 /* FunkoNativeAPIRepositorySpy.swift in Sources */,
+				B26160EA2C98999600E71E15 /* FunkoListViewControllerTests.swift in Sources */,
+				B26160E42C98995100E71E15 /* FunkoFilterPresenterTests.swift in Sources */,
 				B2033D082C978D5D00C3F8E0 /* SceneDelegate.swift in Sources */,
 				B26E473A2C97964800B01F9F /* FunkoContainer.swift in Sources */,
-				B26E47472C97991600B01F9F /* FilterPrensenter.swift in Sources */,
+				B26E47472C97991600B01F9F /* FunkoFilterPrensenter.swift in Sources */,
 				B26E472E2C9795C000B01F9F /* DashboardPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +465,14 @@
 				B2033D112C978D5E00C3F8E0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B26160C12C98561C00E71E15 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B26160C22C98561C00E71E15 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

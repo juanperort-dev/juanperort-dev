@@ -1,1 +1,22 @@
-
+[
+    {
+        "name": "One Piece",
+        "code": "OP"
+    },
+    {
+        "name": "Demon Slayer",
+        "code": "DS"
+    },
+    {
+        "name": "Attack On Titans",
+        "code": "AOT"
+    },
+    {
+        "name": "Dragon Ball",
+        "code": "DB"
+    },
+    {
+        "name": "Naruto",
+        "code": "NRT"
+    }
+]

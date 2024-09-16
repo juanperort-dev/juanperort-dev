@@ -1,1 +1,54 @@
+{
+  "numFunkos" : 8,
+  "funkos" : [
+    {
+      "name" : "Eren Jaeger",
+      "type" : "AOT",
+      "price" : 10.5600000000000001,
+      "date" : "10\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 4",
+      "type" : "OP",
+      "price" : 5.5600000000000001,
+      "date" : "07\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 5",
+      "type" : "OP",
+      "price" : 1.5600000000000001,
+      "date" : "07\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 5",
+      "type" : "OP",
+      "price" : 1.5600000000000001,
+      "date" : "07\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 5",
+      "type" : "OP",
+      "price" : 1.5600000000000001,
+      "date" : "07\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 5",
+      "type" : "OP",
+      "price" : 1.5600000000000001,
+      "date" : "07\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 5",
+      "type" : "OP",
+      "price" : 1.5600000000000001,
+      "date" : "07\/02\/2019"
+    },
+    {
+      "name" : "Luffy Gear 5",
+      "type" : "OP",
+      "price" : 1.5600000000000001,
+      "date" : "07\/02\/2019"
+    }
+  ],
+}
 

@@ -8,10 +8,13 @@
 import UIKit
 
 class FunkoCollectionViewCell: UICollectionViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    static let id: String = "FunkoCollectionViewCell"
+    
+    @IBOutlet weak var image: UIImageView!
+    
+    func setupDataCell(_ funko: FunkoCollection) {
+        image.image = UIImage(named: funko.name)
     }
-
 }
+

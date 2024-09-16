@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  FunkoHub
+
+  Created by Juan José Perálvarez Ortiz on 16/9/24.
+  
+*/
+
+
+//MARK: Common
+"invalidDate" = "Fecha inválida";
+"alert.title.invalidDate" = "Fecha no válida";
+"alert.message.invalidDate" = "Introduzca una fecha válida";
+"alert.button.invalidDate" = "Aceptar";
+"alert.title.errorService" = "No data";
+"alert.message.errorService" = "Service not found";
+"alert.message.dataLoadFailure" = "Data from the website could not be loaded";
+"alert.button.errorService" = "OK";
+"funkoNotValid" = "Funko no válido";
+"priceWithUnit" = "%.2f €";

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct FunkoContainer: Codable {
+    let numFunkos: Int
+    var funkos: [Funko]? = []
+}
