@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEDB90E175CB59B88FDC9A8 /* Pods_FunkoHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD697D672D43FF4658EC9BAD /* Pods_FunkoHub.framework */; };
+		B2033D062C978D5D00C3F8E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2033D052C978D5D00C3F8E0 /* AppDelegate.swift */; };
+		B2033D082C978D5D00C3F8E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2033D072C978D5D00C3F8E0 /* SceneDelegate.swift */; };
+		B2033D0A2C978D5D00C3F8E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2033D092C978D5D00C3F8E0 /* ViewController.swift */; };
+		B2033D0D2C978D5D00C3F8E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2033D0C2C978D5D00C3F8E0 /* Base */; };
+		B2033D0F2C978D5E00C3F8E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2033D0E2C978D5E00C3F8E0 /* Assets.xcassets */; };
+		B2033D122C978D5E00C3F8E0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B2033D112C978D5E00C3F8E0 /* Base */; };
+		B26E472C2C9795B000B01F9F /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E472B2C9795B000B01F9F /* Dashboard.storyboard */; };
+		B26E472E2C9795C000B01F9F /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E472D2C9795C000B01F9F /* DashboardPresenter.swift */; };
+		B26E47302C9795D300B01F9F /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E472F2C9795D300B01F9F /* DashboardViewController.swift */; };
+		B26E47332C97960500B01F9F /* FunkoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47312C97960500B01F9F /* FunkoCollectionViewCell.swift */; };
+		B26E47342C97960500B01F9F /* FunkoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B26E47322C97960500B01F9F /* FunkoCollectionViewCell.xib */; };
+		B26E47362C97962A00B01F9F /* FunkoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47352C97962A00B01F9F /* FunkoCollection.swift */; };
+		B26E47382C97963800B01F9F /* Funko.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47372C97963800B01F9F /* Funko.swift */; };
+		B26E473A2C97964800B01F9F /* FunkoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47392C97964800B01F9F /* FunkoContainer.swift */; };
+		B26E473C2C97968600B01F9F /* CallsAlomofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E473B2C97968600B01F9F /* CallsAlomofire.swift */; };
+		B26E47412C97984100B01F9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47402C97984100B01F9F /* Constants.swift */; };
+		B26E47432C9798C400B01F9F /* Filter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B26E47422C9798C400B01F9F /* Filter.storyboard */; };
+		B26E47452C97990C00B01F9F /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47442C97990C00B01F9F /* FilterViewController.swift */; };
+		B26E47472C97991600B01F9F /* FilterPrensenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E47462C97991600B01F9F /* FilterPrensenter.swift */; };
+		B26E47482C97991F00B01F9F /* detail.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473F2C9797DA00B01F9F /* detail.json */; };
+		B26E47492C97992200B01F9F /* funkos.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473E2C9797C400B01F9F /* funkos.json */; };
+		B26E474A2C97992A00B01F9F /* funkoCollection.json in Resources */ = {isa = PBXBuildFile; fileRef = B26E473D2C9797AD00B01F9F /* funkoCollection.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289EC8F6269324FDFD1650B3 /* Pods-FunkoHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunkoHub.release.xcconfig"; path = "Target Support Files/Pods-FunkoHub/Pods-FunkoHub.release.xcconfig"; sourceTree = "<group>"; };
+		752A7E047F481F18CBE07911 /* Pods-FunkoHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FunkoHub.debug.xcconfig"; path = "Target Support Files/Pods-FunkoHub/Pods-FunkoHub.debug.xcconfig"; sourceTree = "<group>"; };
+		B2033D022C978D5D00C3F8E0 /* FunkoHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkoHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2033D052C978D5D00C3F8E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2033D072C978D5D00C3F8E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B2033D092C978D5D00C3F8E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2033D0C2C978D5D00C3F8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2033D0E2C978D5E00C3F8E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2033D112C978D5E00C3F8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2033D132C978D5E00C3F8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B26E472B2C9795B000B01F9F /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		B26E472D2C9795C000B01F9F /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		B26E472F2C9795D300B01F9F /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		B26E47312C97960500B01F9F /* FunkoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B26E47322C97960500B01F9F /* FunkoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FunkoCollectionViewCell.xib; sourceTree = "<group>"; };
+		B26E47352C97962A00B01F9F /* FunkoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoCollection.swift; sourceTree = "<group>"; };
+		B26E47372C97963800B01F9F /* Funko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funko.swift; sourceTree = "<group>"; };
+		B26E47392C97964800B01F9F /* FunkoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunkoContainer.swift; sourceTree = "<group>"; };
+		B26E473B2C97968600B01F9F /* CallsAlomofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallsAlomofire.swift; sourceTree = "<group>"; };
+		B26E473D2C9797AD00B01F9F /* funkoCollection.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = funkoCollection.json; sourceTree = "<group>"; };
+		B26E473E2C9797C400B01F9F /* funkos.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = funkos.json; sourceTree = "<group>"; };
+		B26E473F2C9797DA00B01F9F /* detail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = detail.json; sourceTree = "<group>"; };
+		B26E47402C97984100B01F9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B26E47422C9798C400B01F9F /* Filter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Filter.storyboard; sourceTree = "<group>"; };
+		B26E47442C97990C00B01F9F /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		B26E47462C97991600B01F9F /* FilterPrensenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPrensenter.swift; sourceTree = "<group>"; };
+		DD697D672D43FF4658EC9BAD /* Pods_FunkoHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FunkoHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2033CFF2C978D5D00C3F8E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEDB90E175CB59B88FDC9A8 /* Pods_FunkoHub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B92F5D813C7C18843F27633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				752A7E047F481F18CBE07911 /* Pods-FunkoHub.debug.xcconfig */,
+				289EC8F6269324FDFD1650B3 /* Pods-FunkoHub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B2033CF92C978D5D00C3F8E0 = {
+			isa = PBXGroup;
+			children = (
+				B2033D042C978D5D00C3F8E0 /* FunkoHub */,
+				B2033D032C978D5D00C3F8E0 /* Products */,
+				5B92F5D813C7C18843F27633 /* Pods */,
+				F50D69296BE6FE408FF3F5B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2033D032C978D5D00C3F8E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2033D022C978D5D00C3F8E0 /* FunkoHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2033D042C978D5D00C3F8E0 /* FunkoHub */ = {
+			isa = PBXGroup;
+			children = (
+				B2033D192C978DA300C3F8E0 /* Dashboard */,
+				B2033D1D2C9790AB00C3F8E0 /* FunkoDetail */,
+				B2033D1E2C9790D100C3F8E0 /* FunkoList */,
+				B2033D1F2C9790ED00C3F8E0 /* FunkoFilter */,
+				B2033D202C9791C900C3F8E0 /* TypeFunko */,
+				B2033D052C978D5D00C3F8E0 /* AppDelegate.swift */,
+				B2033D072C978D5D00C3F8E0 /* SceneDelegate.swift */,
+				B2033D092C978D5D00C3F8E0 /* ViewController.swift */,
+				B2033D0B2C978D5D00C3F8E0 /* Main.storyboard */,
+				B2033D102C978D5E00C3F8E0 /* LaunchScreen.storyboard */,
+				B2033D0E2C978D5E00C3F8E0 /* Assets.xcassets */,
+				B2033D212C97928C00C3F8E0 /* Tests */,
+				B2033D1C2C978E7300C3F8E0 /* Resources */,
+				B2033D1B2C978DB700C3F8E0 /* Structs */,
+				B2033D1A2C978DAD00C3F8E0 /* Utils */,
+				B2033D132C978D5E00C3F8E0 /* Info.plist */,
+			);
+			path = FunkoHub;
+			sourceTree = "<group>";
+		};
+		B2033D192C978DA300C3F8E0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B26E472B2C9795B000B01F9F /* Dashboard.storyboard */,
+				B26E472D2C9795C000B01F9F /* DashboardPresenter.swift */,
+				B26E472F2C9795D300B01F9F /* DashboardViewController.swift */,
+				B26E47312C97960500B01F9F /* FunkoCollectionViewCell.swift */,
+				B26E47322C97960500B01F9F /* FunkoCollectionViewCell.xib */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B2033D1A2C978DAD00C3F8E0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B26E473B2C97968600B01F9F /* CallsAlomofire.swift */,
+				B26E47402C97984100B01F9F /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2033D1B2C978DB700C3F8E0 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				B26E47352C97962A00B01F9F /* FunkoCollection.swift */,
+				B26E47372C97963800B01F9F /* Funko.swift */,
+				B26E47392C97964800B01F9F /* FunkoContainer.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		B2033D1C2C978E7300C3F8E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B26E473D2C9797AD00B01F9F /* funkoCollection.json */,
+				B26E473E2C9797C400B01F9F /* funkos.json */,
+				B26E473F2C9797DA00B01F9F /* detail.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2033D1D2C9790AB00C3F8E0 /* FunkoDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FunkoDetail;
+			sourceTree = "<group>";
+		};
+		B2033D1E2C9790D100C3F8E0 /* FunkoList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FunkoList;
+			sourceTree = "<group>";
+		};
+		B2033D1F2C9790ED00C3F8E0 /* FunkoFilter */ = {
+			isa = PBXGroup;
+			children = (
+				B26E47422C9798C400B01F9F /* Filter.storyboard */,
+				B26E47442C97990C00B01F9F /* FilterViewController.swift */,
+				B26E47462C97991600B01F9F /* FilterPrensenter.swift */,
+			);
+			path = FunkoFilter;
+			sourceTree = "<group>";
+		};
+		B2033D202C9791C900C3F8E0 /* TypeFunko */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TypeFunko;
+			sourceTree = "<group>";
+		};
+		B2033D212C97928C00C3F8E0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F50D69296BE6FE408FF3F5B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD697D672D43FF4658EC9BAD /* Pods_FunkoHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2033D012C978D5D00C3F8E0 /* FunkoHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2033D162C978D5E00C3F8E0 /* Build configuration list for PBXNativeTarget "FunkoHub" */;
+			buildPhases = (
+				643F8C434542B296CFF333E3 /* [CP] Check Pods Manifest.lock */,
+				B2033CFE2C978D5D00C3F8E0 /* Sources */,
+				B2033CFF2C978D5D00C3F8E0 /* Frameworks */,
+				B2033D002C978D5D00C3F8E0 /* Resources */,
+				A6F16B94FB71C2F3AD72F278 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkoHub;
+			productName = FunkoHub;
+			productReference = B2033D022C978D5D00C3F8E0 /* FunkoHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2033CFA2C978D5D00C3F8E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B2033D012C978D5D00C3F8E0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = B2033CFD2C978D5D00C3F8E0 /* Build configuration list for PBXProject "FunkoHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2033CF92C978D5D00C3F8E0;
+			productRefGroup = B2033D032C978D5D00C3F8E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2033D012C978D5D00C3F8E0 /* FunkoHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2033D002C978D5D00C3F8E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2033D0F2C978D5E00C3F8E0 /* Assets.xcassets in Resources */,
+				B26E47492C97992200B01F9F /* funkos.json in Resources */,
+				B26E47482C97991F00B01F9F /* detail.json in Resources */,
+				B26E474A2C97992A00B01F9F /* funkoCollection.json in Resources */,
+				B2033D122C978D5E00C3F8E0 /* Base in Resources */,
+				B26E47432C9798C400B01F9F /* Filter.storyboard in Resources */,
+				B26E47342C97960500B01F9F /* FunkoCollectionViewCell.xib in Resources */,
+				B2033D0D2C978D5D00C3F8E0 /* Base in Resources */,
+				B26E472C2C9795B000B01F9F /* Dashboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		643F8C434542B296CFF333E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FunkoHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F16B94FB71C2F3AD72F278 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunkoHub/Pods-FunkoHub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FunkoHub/Pods-FunkoHub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FunkoHub/Pods-FunkoHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2033CFE2C978D5D00C3F8E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26E47332C97960500B01F9F /* FunkoCollectionViewCell.swift in Sources */,
+				B26E47412C97984100B01F9F /* Constants.swift in Sources */,
+				B26E47382C97963800B01F9F /* Funko.swift in Sources */,
+				B2033D0A2C978D5D00C3F8E0 /* ViewController.swift in Sources */,
+				B2033D062C978D5D00C3F8E0 /* AppDelegate.swift in Sources */,
+				B26E47302C9795D300B01F9F /* DashboardViewController.swift in Sources */,
+				B26E47452C97990C00B01F9F /* FilterViewController.swift in Sources */,
+				B26E47362C97962A00B01F9F /* FunkoCollection.swift in Sources */,
+				B26E473C2C97968600B01F9F /* CallsAlomofire.swift in Sources */,
+				B2033D082C978D5D00C3F8E0 /* SceneDelegate.swift in Sources */,
+				B26E473A2C97964800B01F9F /* FunkoContainer.swift in Sources */,
+				B26E47472C97991600B01F9F /* FilterPrensenter.swift in Sources */,
+				B26E472E2C9795C000B01F9F /* DashboardPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2033D0B2C978D5D00C3F8E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2033D0C2C978D5D00C3F8E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2033D102C978D5E00C3F8E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2033D112C978D5E00C3F8E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2033D142C978D5E00C3F8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2033D152C978D5E00C3F8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2033D172C978D5E00C3F8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752A7E047F481F18CBE07911 /* Pods-FunkoHub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FunkoHub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanperort.FunkoHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2033D182C978D5E00C3F8E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289EC8F6269324FDFD1650B3 /* Pods-FunkoHub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FunkoHub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanperort.FunkoHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2033CFD2C978D5D00C3F8E0 /* Build configuration list for PBXProject "FunkoHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2033D142C978D5E00C3F8E0 /* Debug */,
+				B2033D152C978D5E00C3F8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2033D162C978D5E00C3F8E0 /* Build configuration list for PBXNativeTarget "FunkoHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2033D172C978D5E00C3F8E0 /* Debug */,
+				B2033D182C978D5E00C3F8E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2033CFA2C978D5D00C3F8E0 /* Project object */;
+}
