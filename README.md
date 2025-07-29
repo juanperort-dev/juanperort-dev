@@ -12,15 +12,6 @@ I'm Juanjo, a software developer with hands-on experience in mobile app developm
 - 📡 Curious about IoT, system automation, and small embedded projects.
 
 
-## 👨‍💻 About Me
-
-- 💡 iOS Developer with professional and personal experience using **Swift**, **SwiftUI**, and **Clean Architecture**.
-- 🚀 Passionate about learning new technologies and applying them to solve real-world problems.
-- 🤖 Exploring AI and machine learning with Python, NLP, and data science tools.
-- 📱 Background in Android development using Java and Kotlin.
-- 📡 Curious about IoT, system automation, and small embedded projects.
-
-
 ## 🛠 Skills
 
 - **Languages**: Swift, Kotlin, Dart, Java, Python, JavaScript, TypeScript, C#
