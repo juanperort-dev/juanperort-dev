@@ -1,25 +1,39 @@
-# Hola, soy Juanjo
+# 👋 Welcome to my GitHub!
 
-¡Bienvenido a mi rincón de desarrollo en GitHub! Soy un apasionado desarrollador de software con experiencia en el desarrollo Mobile y a gusto propio mucho más para la plataforma de iOS, desarrollo de inteligencia artificial y big data. Me encanta explorar nuevas tecnologías y encontrar soluciones creativas a los desafíos tecnológicos.
+I'm Juanjo, a software developer with hands-on experience in mobile app development (iOS/Android) and a growing interest in AI and Big Data. I enjoy tackling technical challenges, building real-world solutions, and continuously improving my skills through personal and collaborative projects.
 
-## Acerca de Mí
 
-- 👨‍💻 Desarrollador de Software con enfoque en Mobile, AI y Big Data.
-- 🌐 Explorando el mundo de la inteligencia artificial para crear soluciones innovadoras.
-- 🚀 Aficionado a aprender y aplicar nuevas tecnologías para mejorar mis habilidades.
-- 🤖 Curiosidad por el mundo IoT. Desarrollo de pequeños sitemas.
+## 👨‍💻 About Me
 
-## Habilidades
+- 💡 iOS Developer with professional and personal experience using **Swift**, **SwiftUI**, and **Clean Architecture**.
+- 🚀 Passionate about learning new technologies and applying them to solve real-world problems.
+- 🤖 Exploring AI and machine learning with Python, NLP, and data science tools.
+- 📱 Background in Android development using Java and Kotlin.
+- 📡 Curious about IoT, system automation, and small embedded projects.
 
-- 💻 Lenguajes de Programación: Swift, Kotlin, Dart, Java, Python, JavaScript, TyperScript, C#.
-- 📱 Desarrollo Android: Experiencia en el desarrollo de aplicaciones móviles para Android con Java y Kotlin.
-- 📱 Desarrollo iOS: Experiencia profesional como personal en el desarrollo de aplicaciones móviles para iOS con Swift y SwiftUI.
-- 🤖 Inteligencia Artificial: Desarrollo de modelos de aprendizaje automático, procesamiento del lenguaje natural, etc.
-- 💾 Big Data: Procesamiento y análisis de grandes conjuntos de datos.
 
-## Contacto
+## 👨‍💻 About Me
 
-¡Estoy abierto a colaboraciones y siempre interesado en discutir nuevas ideas y proyectos! Siéntete libre de contactarme:
+- 💡 iOS Developer with professional and personal experience using **Swift**, **SwiftUI**, and **Clean Architecture**.
+- 🚀 Passionate about learning new technologies and applying them to solve real-world problems.
+- 🤖 Exploring AI and machine learning with Python, NLP, and data science tools.
+- 📱 Background in Android development using Java and Kotlin.
+- 📡 Curious about IoT, system automation, and small embedded projects.
 
-- 📧 Email: juanperortdev@gmail.com
-- 💼 LinkedIn: https://www.linkedin.com/in/juanperort/
+
+## 🛠 Skills
+
+- **Languages**: Swift, Kotlin, Dart, Java, Python, JavaScript, TypeScript, C#
+- **iOS Development**: SwiftUI, UIKit, Combine, MVVM, Clean Swift, REST APIs, Xcode, CI/CD (Jenkins, GitHub Actions)
+- **Android Development**: Java, Kotlin, Android Studio, Jetpack Components
+- **AI & Big Data**: Python, NLP basics, pandas, scikit-learn
+- **Tools**: Git, GitHub, Firebase, CoreData, Realm, Postman, VSCode, Docker (basics)
+
+
+## 📬 Contact
+
+I'm always open to collaborations, freelance projects, or simply connecting with fellow developers.  
+Feel free to reach out:
+
+- 📧 Email: [juanperortdev@gmail.com](mailto:juanperortdev@gmail.com)  
+- 💼 LinkedIn: [linkedin.com/in/juanperort](https://www.linkedin.com/in/juanperort)
